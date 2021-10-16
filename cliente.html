@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>G32-R2</title>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            </style>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/funciones.js"></script>
+    </head>
+    <body>
+        
+        <h1>Clientes</h1>
+        
+        <button  onclick="consultarClient()">Consultar Clientes</button>
+
+        <div>
+        <input type="number" id="id" placeholder="Id cliente"> </input>
+        <input type="text" id="name" placeholder="nombre"> </input>
+        <input type="text" id="email" placeholder="email"> </input>
+        <input type="number" id="age" placeholder="edad"> </input>                
+        <button  onclick="insertarClient()">Insertar Cliente</button>
+        <button  onclick="actualizarClient()">Actualizar Cliente</button>
+    
+
+    </div>
+    <div id="idDivConsultaClient"></div>
+        
+               
+        <div>           
+        
+        <button  onclick="consultarIdClient()">Consultar Cliente por ID </button>
+    </div>
+        
+</div> 
+
+
+    </body>
+
+</html>
+
+

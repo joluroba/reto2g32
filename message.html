@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>G32-R2</title>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            </style>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/funciones.js"></script>
+    </head>
+    <body>
+        
+    <h1>Mensajes</h1>
+    
+    <button  onclick="consultarMessage()">Consultar Mensajes</button>
+
+    <div>
+    <input type="number" id="id" placeholder="Id Mensaje"> </input>
+    <input type="text" id="messagetext" placeholder="mensaje"> </input>               
+    <button  onclick="insertarMessage()">Insertar Mensaje</button>
+    <button  onclick="actualizarMessage()">Actualizar Mensaje</button>
+
+
+</div>
+<div id="idDivConsultaMessage"></div>
+    
+           
+    <div>           
+    
+    <button  onclick="consultarIdMessage()">Consultar Mensaje por ID </button>
+</div>
+    
+
+
+    </body>
+
+</html>
+
+

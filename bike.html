@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>G32-R2</title>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            </style>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/funciones.js"></script>
+    </head>
+    <body>
+        
+        <h1>Bicicletas</h1>
+        
+        <button  onclick="consultar()">Consultar Bicicletas</button>
+
+        <div>
+        <input type="number" id="id" placeholder="Id Bicicleta"> </input>
+        <input type="text" id="brand" placeholder="Referencia"> </input>
+        <input type="number" id="model" placeholder="Modelo"> </input>
+        <input type="number" id="category_id" placeholder="Id Categoria"> </input>
+        <input type="text" id="name" placeholder="Nombre"> </input>        
+        <button  onclick="insertar()">Insertar Bicicleta</button>
+        <button  onclick="actualizar()">Actualizar Bicicleta</button>
+    
+
+    </div>
+    <div id="idDivConsulta"></div>
+        
+               
+        <div>           
+        
+        <button  onclick="consultarId()">Consultar Bicicleta por ID </button>
+    </div>
+    
+
+    </body>
+
+</html>
+
+
